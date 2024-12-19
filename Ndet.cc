@@ -56,7 +56,7 @@ int main(int argc,char** argv)
 
     UImanager->ApplyCommand("/control/verbose 2");
     UImanager->ApplyCommand("/run/verbose 2");
-    UImanager->ApplyCommand("/run/setCut 0.001 mm");
+    UImanager->ApplyCommand("/run/setCut 0.1 mm");
 
     //UImanager->ApplyCommand("/run/setCutForAGivenParticle neutron 0.001 mm");
     //UImanager->ApplyCommand("/cuts/setLowEdge 7 MeV");
@@ -107,7 +107,7 @@ int main(int argc,char** argv)
     int par1 = G4Threading::G4GetThreadId() + a1;
     G4Random::setTheSeed( seed1, par1);
 
-    int number = 50;
+    int number = 100;
     //int number = 10000+0*G4UniformRand();
     UImanager->ApplyCommand("/run/beamOn " + std::to_string(number));
     

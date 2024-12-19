@@ -31,11 +31,12 @@ class MyMagField : public G4MagneticField
                              G4double B[]     ) const override;
     G4Field* Clone() const override;
 
-
     int shm_fd;
     void* base_ptr;
     double**** array3D;
     size_t total_size;
+
+    bool Interpolation = true;
 
     G4RotationMatrix* fpMatrix;
 };

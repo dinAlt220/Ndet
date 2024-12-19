@@ -88,7 +88,7 @@ int main() {
 
     //Set field data to array
 
-    ifstream file("Data.txt"); //!!! Data field
+    ifstream file("/home/alion/simulation/BMN/Ndet/shared_mem/Data.txt"); //!!! Data field
 
     if (!file.is_open())
     {
