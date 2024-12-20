@@ -36,7 +36,7 @@ class MyMagField : public G4MagneticField
     double**** array3D;
     size_t total_size;
 
-    bool Interpolation = true;
+    bool Interpolation = false;
 
     G4RotationMatrix* fpMatrix;
 };

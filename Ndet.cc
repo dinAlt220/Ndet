@@ -56,7 +56,7 @@ int main(int argc,char** argv)
 
     UImanager->ApplyCommand("/control/verbose 2");
     UImanager->ApplyCommand("/run/verbose 2");
-    UImanager->ApplyCommand("/run/setCut 0.1 mm");
+    UImanager->ApplyCommand("/run/setCut 10 mm");
 
     //UImanager->ApplyCommand("/run/setCutForAGivenParticle neutron 0.001 mm");
     //UImanager->ApplyCommand("/cuts/setLowEdge 7 MeV");

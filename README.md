@@ -1,5 +1,7 @@
 # Neutron detector Geant4 code
 
+![alt text](https://github.com/dinAlt220/Ndet/image.png?raw=true)
+
 (Magnetic field in shared mem, test on Debian)
 
 ## How to use
