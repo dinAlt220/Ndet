@@ -1,6 +1,6 @@
 # Neutron detector Geant4 code
 
-![plot](https://github.com/dinAlt220/Ndet/image.png)
+![ezcv logo](https://github.com/dinAlt220/Ndet/image.png)
 
 (Magnetic field in shared mem, test on Debian)
 
